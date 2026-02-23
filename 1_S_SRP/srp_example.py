@@ -1,3 +1,5 @@
+# Principio da responsabilidade UNICA. modulo (conujunto de estrutura de dados) separdos e com coesão
+
 class Process:
     def execute(self, username: str, password: str) -> None:
         if self.__verify_input_data(username, password):
