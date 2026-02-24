@@ -1,4 +1,4 @@
-# Principio da responsabilidade UNICA. modulo (conujunto de estrutura de dados) separdos e com coesão
+# Principio da responsabilidade UNICA. modulo (conujunto de estrutura de dados) separdos e com coesão (só se pode mexer em alguma coisa em especifico)
 
 class Process:
     def execute(self, username: str, password: str) -> None:
